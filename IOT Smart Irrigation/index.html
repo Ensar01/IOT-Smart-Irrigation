@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#39c9fe">
+    <title>Smart Irrigation</title>
+    <link rel="icon"  href="/Pictures/favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    
+    
+
+
+</head>
+<body>
+ 
+        <h1 class="Naslov">IOT Smart Irrigation</h1>
+
+   <div id="Progresi">
+          <div class="progress">
+             <svg class="progress-circle" width="200px" height="200px" xmlns="http://www.w3.org/2000/svg">
+                 <circle class="progress-circle-back"
+                 cx="80" cy="80" r="74"></circle>
+                 <circle class="progress-circle-prog"
+                 cx="80" cy="80" r="74"></circle>
+             </svg>
+                <div class="progress-text" data-progress="0">0°C</div>
+             <div class="progress-naziv" id="t">Temperatura zraka</div>
+         </div>	
+         <div class="progress1">
+             <svg class="progress-circle1" width="200px" height="200px" xmlns="http://www.w3.org/2000/svg">
+                 <circle class="progress-circle-back1"
+                 cx="80" cy="80" r="74"></circle>
+                 <circle class="progress-circle-prog1"
+                 cx="80" cy="80" r="74"></circle>
+             </svg>
+               <div class="progress-text1" data-progress="0">0%</div>
+               <div class="progress-naziv1" id="h">Vlažnost zraka</div>
+         </div>
+        <div class="progress2">
+            <svg class="progress-circle2" width="200px" height="200px" xmlns="http://www.w3.org/2000/svg">
+                <circle class="progress-circle-back2"
+                cx="80" cy="80" r="74"></circle>
+                <circle class="progress-circle-prog2"
+                cx="80" cy="80" r="74"></circle>
+            </svg>
+            <div class="progress-text2" data-progress="0">0%</div>
+            <div class="progress-naziv2 id="h1">Vlažnost zemlje</div>
+        </div>
+    </div>		
+   
+        <button type="button" class="btn" id="btn1">Click Me!</button>
+        
+        <div class="Upozorenje">
+            <h2 id="NaslovUpozorenje">Text</h2>
+            <p id="ParagrafUpozorenje">Upali pumpu</p>
+        </div>
+        
+
+        <script src="Script.js"></script>
+      
+    </body>
+    </html>

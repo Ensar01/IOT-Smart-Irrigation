@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0; 
+    padding: 0; 
+    height: 100vh;
+    background-image: url('Pictures/Slika2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    overflow: hidden;
+}
+
+.Naslov
+{
+    text-align: center;
+    padding: 60px;
+    
+}
+.Upozorenje
+{
+    
+    text-align: center;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    background-color: hsla(200, 2%, 75%, 0.615);
+    width: 50%;
+    border-radius: 8px;
+}
+
+.progress {
+   
+    height: 160px;
+    width: 160px;
+    cursor: pointer;
+    
+    margin: -80px 0 0 0px;
+}
+.progress1 {
+   
+    height: 160px;
+    width: 160px;
+    cursor: pointer;
+   
+    margin: -80px 0 0 -80px;
+}
+.progress2 {
+   height: 160px;
+    width: 160px;
+    cursor: pointer;
+    margin: -80px 0 0 -80px;
+}
+#Progresi
+{
+    
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-top: 12%;
+}
+.btn
+{
+   
+    margin-top: 7%;
+    margin-left: 45%;
+    width: 10%;
+    height: 6%;
+    border-radius: 8px;
+    font-size: larger;
+    border-style: none;
+    background-color: hsl(205, 86%, 56%);
+}
+.progress-circle {
+    transform: rotate(-90deg);
+	margin-top: -40px;
+    
+}
+
+.progress-circle-back {
+    fill: none; 
+	stroke: #888585;
+	stroke-width:10px;
+}
+
+.progress-circle-prog {
+    fill: none; 
+	stroke: hsl(205, 86%, 56%);
+	stroke-width: 10px;  
+	stroke-dasharray: 0 999;    
+	stroke-dashoffset: 0px;
+    transition: stroke-dasharray 0.7s linear 0s;
+    
+}
+.progress-circle1 {
+    transform: rotate(-90deg);
+    margin-top: -40px;
+}
+
+.progress-circle-back1 {
+    fill: none; 
+    stroke: #888585;
+    stroke-width:10px;
+}
+
+.progress-circle-prog1 {
+    fill: none; 
+    stroke: hsl(205, 86%, 56%);
+    stroke-width: 10px;  
+    stroke-dasharray: 0 999;    
+    stroke-dashoffset: 0px;
+    transition: stroke-dasharray 0.7s linear 0s;
+}
+.progress-circle2 {
+    transform: rotate(-90deg);
+    margin-top: -40px;
+}
+
+.progress-circle-back2 {
+    fill: none; 
+    stroke: #888585;
+    stroke-width:10px;
+}
+
+.progress-circle-prog2 {
+    fill: none; 
+    stroke: hsl(205, 86%, 56%);
+    stroke-width: 10px;  
+    stroke-dasharray: 0 999;    
+    stroke-dashoffset: 0px;
+    transition: stroke-dasharray 0.7s linear 0s;
+}
+.progress-text {
+    width: 100%;
+	text-align: center;
+	font-size: 2em;
+    margin-top: -65% ;
+}
+.progress-text1 {
+   
+	text-align: center;
+	font-size: 2em;
+    margin-top: -65% ;
+}
+
+.progress-text2 {
+    
+	text-align: center;
+	font-size: 2em;
+    margin-top: -65% ;
+}
+
+.progress-naziv {
+    
+	text-align: center;
+    margin-top: 40%;
+    font-size: larger;
+}
+.progress-naziv1 {
+    
+	text-align: center;
+    margin-top: 40%;
+    font-size: larger;
+}
+.progress-naziv2 {
+    
+	text-align: center;
+    margin-top: 40%;
+    font-size: larger;
+}
+
+@media screen and (max-width: 800px) {
+    body
+    {
+        background-image: url("/Pictures/slika3.jpg");
+        background-attachment: fixed;
+        background-size:100% 100%;
+        overflow-y: scroll;
+    }
+    #Progresi
+    {
+        flex-direction: column;
+        height: 70%;
+    }
+   
+ 
+    h1
+    {
+        margin-left:auto;
+        font-weight: 200;
+        font-size: 30px;
+        
+    }
+  
+    .progress
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .progress1
+    {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .progress2
+    {
+       
+       margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn
+    {
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 25%;
+        font-size: larger;
+    }
+    .Upozorenje
+    {
+        font-size:x-large;
+        margin-top: 10%;
+        width: 70%;
+    }
+  }
