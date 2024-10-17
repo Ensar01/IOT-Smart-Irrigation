@@ -7,4 +7,4 @@ The IOT Smart Irrigation project uses a Node-MCU ESP32, DHT11 sensor, soil moist
 
 ## Functional prototype
 
-<p> <img src="https://github.com/Ensar01/IOT-Smart-Irrigation/blob/main/IOT%20Smart%20Irrigation/Pictures/READMEPics/Model.jpg"  width="500" height="750"/></p>
+<p> <img src="https://github.com/Ensar01/IOT-Smart-Irrigation/blob/main/IOT%20Smart%20Irrigation/Pictures/READMEPics/Model.jpg"  width="600" height="700"/></p>
